@@ -2296,8 +2296,8 @@ hoist-non-react-statics@^3.0.1, hoist-non-react-statics@^3.1.0, hoist-non-react-
     react-is "^16.7.0"
 
 hosted-git-info@^2.1.4:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
 
 html-encoding-sniffer@^1.0.2:
   version "1.0.2"
@@ -3704,6 +3704,10 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
+moment@^2.22.0:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+
 moment@^2.24.0:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
@@ -4333,6 +4337,52 @@ react-lifecycles-compat@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
 
+react-native-accordion-xg@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-accordion-xg/-/react-native-accordion-xg-0.0.1.tgz#88aff00a26ba328517acfb9a9ac21612a1de4764"
+
+react-native-action-sheet-xg@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-action-sheet-xg/-/react-native-action-sheet-xg-0.0.1.tgz#e8626215ab374a34f31357031b04601f5d3d3862"
+  dependencies:
+    react-native-stylesheet-xg "^1.1.0"
+
+react-native-buttons@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-buttons/-/react-native-buttons-0.0.3.tgz#0669634c16a8b3481c3ac6ba5bcaf329f1a00aa6"
+  dependencies:
+    react-native-colortool "^0.0.1"
+    react-native-stylesheet-xg "^1.0.3"
+
+react-native-buttons@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/react-native-buttons/-/react-native-buttons-0.0.4.tgz#6ae98074b9923f2dc1492b85f4ae3b5d5aba0a13"
+  dependencies:
+    react-native-colortool "^0.0.1"
+    react-native-stylesheet-xg "^1.0.3"
+
+react-native-colortool@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-colortool/-/react-native-colortool-0.0.1.tgz#0ae21efe2e3df18a1c3d9b48c30acaaa647dfb66"
+
+react-native-confirm@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-confirm/-/react-native-confirm-0.0.1.tgz#495ba41e10f67a8c1323a9450623a172c4743a29"
+  dependencies:
+    react-native-buttons "^0.0.3"
+    react-native-input-xg "^0.0.2"
+    react-native-stylesheet-xg "^1.1.0"
+
+react-native-datepicker@^1.4.4:
+  version "1.7.2"
+  resolved "https://registry.yarnpkg.com/react-native-datepicker/-/react-native-datepicker-1.7.2.tgz#58d0822591a0ac9b32aba082650222a0ee29669d"
+  dependencies:
+    moment "^2.22.0"
+
+react-native-drawer-menu@^0.2.3:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/react-native-drawer-menu/-/react-native-drawer-menu-0.2.5.tgz#098a5ede6456f6066bb608dabe72b5c297e9a704"
+
 react-native-elements@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/react-native-elements/-/react-native-elements-1.1.0.tgz#f99bcda4459a886f3ab4591c684c099d37aedf2b"
@@ -4352,6 +4402,26 @@ react-native-gesture-handler@^1.2.1:
     hoist-non-react-statics "^2.3.1"
     invariant "^2.2.2"
     prop-types "^15.5.10"
+
+react-native-grading@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-native-grading/-/react-native-grading-1.0.3.tgz#5d62ee2c46ba1013e0f6aca504191038ff57bd20"
+
+react-native-input-xg@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-input-xg/-/react-native-input-xg-0.0.2.tgz#9e5ee284db3c61df8fba0587f3d62943b8c23e27"
+  dependencies:
+    react-native-stylesheet-xg "^1.1.0"
+
+react-native-label-select@^1.0.10:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-label-select/-/react-native-label-select-1.1.0.tgz#9bc7f78acf196b14f69c10d72ce68a02b6889538"
+
+react-native-link-xg@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-link-xg/-/react-native-link-xg-0.0.1.tgz#8504ce4e6557ee8308f1056edad905322ca0c5bd"
+  dependencies:
+    react-native-stylesheet-xg "^1.1.0"
 
 react-native-loading-spinner-overlay@^1.0.1:
   version "1.0.1"
@@ -4388,15 +4458,49 @@ react-native-signature-capture@^0.4.9:
   dependencies:
     prop-types "^15.5.10"
 
+react-native-simple-time-picker@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-simple-time-picker/-/react-native-simple-time-picker-0.2.0.tgz#b1a12a7880ac2f5a1200b0bc3d3c0065196097dc"
+  dependencies:
+    prop-types "^15.5.10"
+
 react-native-status-bar-height@^2.2.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/react-native-status-bar-height/-/react-native-status-bar-height-2.3.1.tgz#b92ce9112c2367290847ac11284d9d84a6330169"
+
+react-native-stylesheet-xg@^1.0.3, react-native-stylesheet-xg@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-stylesheet-xg/-/react-native-stylesheet-xg-1.1.0.tgz#d9f6b200c1aaf64378c97607488082b3d5e68c87"
 
 react-native-tab-view@^1.2.0, react-native-tab-view@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/react-native-tab-view/-/react-native-tab-view-1.4.1.tgz#f113cd87485808f0c991abec937f70fa380478b9"
   dependencies:
     prop-types "^15.6.1"
+
+react-native-tab-xg@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/react-native-tab-xg/-/react-native-tab-xg-0.0.1.tgz#86340a784969501f25b3a762d8debdd3fa47228c"
+  dependencies:
+    react-native-stylesheet-xg "^1.1.0"
+
+react-native-ui-xg@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/react-native-ui-xg/-/react-native-ui-xg-0.0.6.tgz#abbe72cb56a555e4a443c19a58e89d18bf8b3a2e"
+  dependencies:
+    react-native-accordion-xg "^0.0.1"
+    react-native-action-sheet-xg "^0.0.1"
+    react-native-buttons "^0.0.4"
+    react-native-confirm "^0.0.1"
+    react-native-datepicker "^1.4.4"
+    react-native-drawer-menu "^0.2.3"
+    react-native-grading "^1.0.3"
+    react-native-input-xg "^0.0.2"
+    react-native-label-select "^1.0.10"
+    react-native-link-xg "^0.0.1"
+    react-native-stylesheet-xg "^1.1.0"
+    react-native-tab-xg "^0.0.1"
+    react-native-zoom-image "^0.1.1"
 
 react-native-vector-icons@^6.4.2:
   version "6.4.2"
@@ -4409,6 +4513,10 @@ react-native-vector-icons@^6.4.2:
 react-native-view-shot@^2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/react-native-view-shot/-/react-native-view-shot-2.6.0.tgz#3b23675826f67658366352c4b97b59a6aded2f43"
+
+react-native-zoom-image@^0.1.1:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/react-native-zoom-image/-/react-native-zoom-image-0.1.2.tgz#33c26744ba47ed5e0637925b92a7bf1e1c8c4515"
 
 react-native@0.59.8:
   version "0.59.8"
